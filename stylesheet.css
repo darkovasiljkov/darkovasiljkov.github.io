@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
+body {
+    font-family: "Maven Pro", sans-serif;
+    padding: 0;
+    margin-left: 10px;
+    background: whitesmoke;
+}
+
+/* Navigation Bar */
+
+.top-bar header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 25px 70px;
+
+
+ }
+.top-bar h1 a:hover
+{
+    color: #F6BE00;
+    opacity: 70%;
+}
+
+.navigation ul
+{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navigation li
+{
+    display: inline-block;
+    padding: 5px 7px;
+
+}
+.navigation a
+{
+    color: dimgray;
+    padding: 12px 35px;
+    text-decoration: none;
+
+
+}
+.navigation a:hover
+{
+    color: #F6BE00;
+    opacity: 50%;
+}
+h1 a
+{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+/* Photo of Me */
+.Darko
+{
+    float: right;
+    margin-right: 300px;
+    border: solid #F6BE00;
+    margin-top :70px;
+}
+.aesthetic
+{
+    float: right;
+    margin-right: 370px;
+    border: 1px solid #F6BE00;
+    margin-top : 55px;
+
+}
+
+.education-part
+{
+    float: right;
+    margin-right: 400px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.education-part  ol
+{
+    float: left;
+   font-size: 18px;
+    list-style-image:url("images/icons8-bulleted-list-24.png");
+    padding-left: 300px;
+
+}
+.education-part ol:nth-of-type(2)
+{
+    float: left;
+    font-size: 18px;
+    list-style-image:url("images/icons8-edit-image-24.png");
+    padding-left: 300px;
+    margin-top: -2px;
+
+}
+
+.education-part   h1
+{
+    padding-left: 600px;
+
+}
+.education-part .programming
+{
+    float: left;
+}
+
+.about-part
+{
+    float: right;
+    margin-right: 400px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.about-part ol
+{
+    float: left;
+    font-size: 18px;
+    list-style-image:url("images/icons8-selfies-24.png");
+    padding-left: 300px;
+
+}
+
+.about-part   h1
+{
+    padding-left: 600px;
+
+}
+.about-part ol:nth-of-type(2)
+{
+    float: left;
+    font-size: 18px;
+    list-style: square;
+    padding-left: 300px;
+    margin-top: 10px;
+
+}
+
+
+
+.contact-part
+{
+    float: right;
+    margin-right: 400px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.contact-part  h1
+{
+margin-right: 70px;
+
+}
+
+/* Contact Form */
+
+.contact-form {
+    position: relative;
+}
+.contact-form .form-control {
+    background: transparent;
+    border-radius: 2px;
+    outline: none;
+    box-shadow: none;
+    font-weight: bold;
+    margin: 16px 0;
+}
+.contact-form .form-control:not(textarea) {
+    height: 48px;
+}
+.contact-form .form-control:hover, .contact-form .form-control:focus {
+    border-color: #ffc200;
+}
+.contact-form .submit-btn {
+    background: #ffc200;
+    border-radius: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    width: 200px;
+    font-family: "Maven Pro", sans-serif;
+    vertical-align: center;
+    font-size: 15px;
+}
+.contact-form .submit-btn:hover {
+    background: #474559;
+}
+
+.contact-info {
+    background: #474559;
+    border-radius: 0 0 3px 3px;
+    position: relative;
+    bottom: 8px;
+}
+.contact-info p, .contact-info a {
+    color: #f7f3f3;
+}
+input[type="text"]::placeholder {
+
+    font-family: "Maven Pro", sans-serif;
+    font-size: 17px;
+}
+input[type="email"]::placeholder {
+
+    font-family: "Maven Pro", sans-serif;
+    font-size:17px;
+
+}
+textarea::placeholder {
+
+    font-family: "Maven Pro", sans-serif;
+    font-size:17px;
+
+}
+/* Above footer section */
+.contact-images
+{
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 150px;
+
+}
+.contact-images img:hover
+{
+    opacity:70%;
+}
+/* Button for scrolling direct top */
+#buttonTop {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    border: none;
+    background-color: #ffc200;
+   color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#buttonTop:hover {
+    background-color: #555;
+}
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+/* Footer */
+
+footer p {
+    display: inline-block;
+    margin-left: 550px;
+    margin-top: 150px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #F6BE00;
+    font-size: 18px;
+}
